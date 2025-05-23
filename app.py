@@ -22,4 +22,4 @@ if st.button("Predict"):
     if prediction[0] == 1:
         st.error(f"⚠️ Fraud Detected! (Confidence: {prob:.2f})")
     else:
-        st.success(f"✅ Legitimate Transaction (Confidence: {prob:.2f})")
+        st.success(f"This is Legitimate")
